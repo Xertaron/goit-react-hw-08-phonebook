@@ -56,7 +56,7 @@ export const LoginForm = () => {
             type="text"
             name="email"
             placeholder="Phone number"
-            outline="1px solid green"
+            outline="1px solid purple"
           />
         </label>
         <label
@@ -67,7 +67,7 @@ export const LoginForm = () => {
             type="password"
             name="password"
             placeholder="Phone number"
-            outline="1px solid green"
+            outline="1px solid purple"
           />
         </label>
 
@@ -77,11 +77,11 @@ export const LoginForm = () => {
           color="white"
           fontWeight="bold"
           borderRadius="md"
-          bgGradient="linear(to-r, teal.500, green.500)"
+          bgGradient="linear(to-r, purple.500, red.500)"
           w="300px"
           h="50px"
           _hover={{
-            bgGradient: 'linear(to-r, red.500, yellow.500)',
+            bgGradient: 'linear(to-r, blue.500, pink.500)',
           }}
           mx="60px"
           mt={3}
