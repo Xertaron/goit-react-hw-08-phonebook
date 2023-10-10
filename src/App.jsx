@@ -15,7 +15,7 @@ const LoginPage = lazy(() => import('./pages/Login/Login'));
 const ContactsPage = lazy(() => import('./pages/Contacts/Contacts'));
 
 const App = () => {
-  const dispatch = useDispatch("/");
+  const dispatch = useDispatch('/');
 
   useEffect(() => {
     dispatch(refreshUser());
@@ -26,6 +26,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
+          <Route
+            path="/goit-react-hw-08-phonebook/"
+            element={<RestrictedRoute redirectTo="/" />}
+          />
           <Route
             path="register"
             element={

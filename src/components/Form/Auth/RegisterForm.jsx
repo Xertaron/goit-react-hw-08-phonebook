@@ -80,7 +80,7 @@ export const RegisterForm = () => {
             outline="1px solid gray"
           />
         </label>
-        <button type="submit" style={{ marginTop: 20 }}>
+        <div type="submit" style={{ marginTop: 20 }}>
           <Box
             as="button"
             color="white"
@@ -95,7 +95,7 @@ export const RegisterForm = () => {
           >
             Send
           </Box>
-        </button>
+        </div>
       </form>
     </Box>
   );
