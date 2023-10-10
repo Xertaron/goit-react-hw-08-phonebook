@@ -54,7 +54,7 @@ export const RegisterForm = () => {
             name="name"
             placeholder="name"
             pattern="\w{5,12}"
-            outline="1px solid gray"
+            outline="1px solid purple"
           />
         </label>
 
@@ -66,7 +66,7 @@ export const RegisterForm = () => {
             type="email"
             name="email"
             placeholder="email"
-            outline="1px solid gray"
+            outline="1px solid purple"
           />
         </label>
         <label
@@ -77,7 +77,7 @@ export const RegisterForm = () => {
             type="password"
             name="password"
             placeholder="password"
-            outline="1px solid gray"
+            outline="1px solid purple"
           />
         </label>
         <div type="submit" style={{ marginTop: 20 }}>
@@ -86,11 +86,11 @@ export const RegisterForm = () => {
             color="white"
             fontWeight="bold"
             borderRadius="md"
-            bgGradient="linear(to-r, teal.500, green.500)"
+            bgGradient="linear(to-r, purple.500, red.500)"
             w="300px"
             h="50px"
             _hover={{
-              bgGradient: 'linear(to-r, red.500, yellow.500)',
+              bgGradient: 'linear(to-r, blue.500, pink.500)',
             }}
           >
             Send
