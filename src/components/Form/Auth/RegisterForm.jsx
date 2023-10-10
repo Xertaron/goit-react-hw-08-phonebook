@@ -80,7 +80,10 @@ export const RegisterForm = () => {
             outline="1px solid purple"
           />
         </label>
-        <div type="submit" style={{ marginTop: 20 }}>
+        <div
+          type="submit"
+          style={{ marginTop: 20, display: 'flex', justifyContent: 'center' }}
+        >
           <Box
             as="button"
             color="white"
