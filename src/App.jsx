@@ -15,7 +15,7 @@ const LoginPage = lazy(() => import('./pages/Login/Login'));
 const ContactsPage = lazy(() => import('./pages/Contacts/Contacts'));
 
 const App = () => {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch("/");
 
   useEffect(() => {
     dispatch(refreshUser());
